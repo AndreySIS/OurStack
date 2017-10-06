@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CPO
 {
-    interface IStack<T>
+    interface IMyStack<T>
     {
         int Count { get; set; }
         T Pop();
