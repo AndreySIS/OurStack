@@ -1,1 +1,2 @@
 c:\users\andrey\desktop\documents\visual studio 2013\Projects\CPO\CPO\bin\Debug\CPO.exe.config
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\bin\Debug\CPO.exe.config
