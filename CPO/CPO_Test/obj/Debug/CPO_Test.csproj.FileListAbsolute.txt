@@ -1,0 +1,9 @@
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\CPO_Test.dll
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\CPO_Test.pdb
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\CPO.exe
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\nunit.framework.dll
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\CPO.pdb
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\bin\Debug\nunit.framework.xml
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\obj\Debug\CPO_Test.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\obj\Debug\CPO_Test.dll
+C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO_Test\obj\Debug\CPO_Test.pdb
