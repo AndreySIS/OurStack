@@ -35,6 +35,7 @@ namespace CPO
                     set { this._Prev = value; }
                 }
             }
+
             private Node First;
             private int size;
 
@@ -43,7 +44,6 @@ namespace CPO
                 size = 0;
                 First = null;
             }
-
 
             public int Count //параметр для вывода размера 
             {
@@ -85,6 +85,24 @@ namespace CPO
                     newNode.Next.Prev = First;
                 }
                 Count++;
+            }
+
+            public Node Peek()
+            {
+                if (First == null)
+                {
+                    throw new InvalidOperationException();
+                }
+                else
+                {
+                    Node temp = First;
+                    if (First.Next != null)
+                    {
+                        First.Next.Prev = null;
+                    }
+                    First = First.Next;
+                    return temp;
+                }
             }
         }
     }
