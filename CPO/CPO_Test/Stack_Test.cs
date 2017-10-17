@@ -10,29 +10,27 @@ namespace CPO_Test
 {
     public class Stack_Test
     {
+        private IMyStack<int> stack;
+        [SetUp]
+        public void SetUp()
+        {
+            stack = new MyStack<int>();
+           // stack = new MyStack2<int>(3);
+        }
+
         [Test()]
         public void Count_Test()
         {
-            MyStack<int> stack = new MyStack<int>();
             int expected = 0;
             int actual = stack.Count;
             Assert.AreEqual(expected, actual);
         }
 
-        [Test()]
-        [ExpectedException(typeof(InvalidOperationException))]
-        public void Peek_EmptyStack_Test()
-        {
-            MyStack<int> stack = new MyStack<int>();
-            CPO.MyStack<int>.Node actual = stack.Peek();
-
-        }
 
         [Test()]
         [ExpectedException(typeof(InvalidOperationException))]
         public void Pop_EmptyStack_Test()
         {
-            MyStack<int> stack = new MyStack<int>();
             int actual = stack.Pop();
         }
 
@@ -41,7 +39,6 @@ namespace CPO_Test
         [Test()]
         public void Push_Test()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             int expected = 1;
             int actual = stack.Count;
@@ -51,7 +48,6 @@ namespace CPO_Test
         [Test()]
         public void Peek_Test()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             int expected = 1;
             int actual = stack.Count;
@@ -61,7 +57,6 @@ namespace CPO_Test
         [Test()]
         public void Push_Test1()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             stack.Push(2);
             int expected = 2;
@@ -72,7 +67,6 @@ namespace CPO_Test
         [Test()]
         public void Pop_Test()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             stack.Push(2);
             stack.Pop();
@@ -84,7 +78,6 @@ namespace CPO_Test
         [Test()]
         public void Pop_Test2()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             stack.Pop();
             int expected = 0;
@@ -95,7 +88,6 @@ namespace CPO_Test
         [Test()]
         public void Pop_Test3()
         {
-            MyStack<int> stack = new MyStack<int>();
             stack.Push(1);
             stack.Push(2);
             stack.Push(3);

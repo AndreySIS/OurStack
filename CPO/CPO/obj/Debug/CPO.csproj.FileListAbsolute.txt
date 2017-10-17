@@ -1,3 +1,8 @@
 c:\users\andrey\desktop\documents\visual studio 2013\Projects\CPO\CPO\bin\Debug\CPO.exe.config
 C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\bin\Debug\CPO.exe.config
 C:\Users\Andrey\Desktop\Documents\GitHub\OurStack\CPO\CPO\bin\Debug\CPO.exe.config
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\bin\Debug\CPO.exe
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\bin\Debug\CPO.pdb
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\obj\Debug\CPO.csprojResolveAssemblyReference.cache
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\obj\Debug\CPO.exe
+C:\Users\Лолита\Documents\GitHub\OurStack\CPO\CPO\obj\Debug\CPO.pdb
